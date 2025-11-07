@@ -3,75 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marwadi University- Department of Computer Engineering</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrapicons@1.11.3/font/bootstrap-icons.css">
 </head>
 <body>
-    <header class="header">
-        <h1 id="he1">Marwadi University</h1>
-        <h2 id="he2">Department of Computer Engineering</h2>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">My College</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pso">PSOs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#recruiters">Recruiters</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to My College</h1>
+            <p class="lead">Excellence in Education</p>
+        </div>
     </header>
 
-    <div class="main">
-        <div id="nav">
-            <a href="#vision">Vision</a>
-            <a href="#mission">Mission</a>
-            <a href="#pso">Program Specific Outcomes</a>
-            <a href="#co">Courses Offered</a>
-            <a href="#tr">Top Recruiters</a>
+    <section id="vision" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Vision</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <p class="lead">
+                        To impart quality technical education through research, innovation and teamwork to create professionally superior and ethically strong engineers.
+                    </p>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <section id="vision">
-            <h3>Vision</h3>
-            <p>To impart quality technical education through research, innovation, and teamwork for creating professionally superior and ethically strong manpower that meets the global challenges of engineering industries and
-research organizations.</p>
-        </section>
+    <section id="mission" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Mission</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <ul>
+                        <li><p class="lead">Provide ICT enabled teaching and learning environment.</p></li>
+                        <li><p class="lead">Enable students to become digital age life-long professional learners.</p></li>
+                        <li><p class="lead">To create an ecosystem for research and development of innovative ideas.</p></li>
+                        <li><p class="lead">Prepare graduates for life-long learning and ethical challenges.</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="mission">
-            <h3>Mission</h3>
-            <ul class="list">
-                <li>Maintain state-of-the-art ICT enabled teaching and learning methodologies.</li>
-                <li>Enable graduates to become digital age literates, innovators, and professionals.</li>
-                <li>Provide skills, knowledge, and attitudes for success as engineers, leaders, and entrepreneurs.</li>
-                <li>Prepare graduates for lifelong learning and career challenges.</li>
-            </ul>
-        </section>
+    <section id="pso" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Program Specific Outcomes (PSOs)</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <ul>
+                        <li>
+                            <p class="lead">PSO1: Demonstrate skills and competencies for analysis, design and development of computer-based systems using industrial standards and social issues.</p>
+                        </li>
+                        <li>
+                            <p class="lead">PSO2: Tackle future technological challenges in areas like security, AI, ML, etc.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="pso">
-            <h3>Program Specific Outcomes (PSOs)</h3>
-            <ol class="list">
-                <li>Apply knowledge and competence in the design and development of computer-based systems addressing industrial and social needs.</li>
-                <li>Adapt to emerging technological advancements including cybersecurity, AR/VR, and loT.</li>
-            </ol>
-        </section>
+    <section id="courses" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Courses Offered</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-outline-primary btn-lg w-100">BCA</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-outline-primary btn-lg w-100">MCA</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-outline-primary btn-lg w-100">LAW</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-outline-primary btn-lg w-100">B.Tech - CSE</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-outline-primary btn-lg w-100">B.Tech - AI&amp;ML</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-outline-primary btn-lg w-100">B.Tech - Cyber Security</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-outline-primary btn-lg w-100">PhD - Computer Engineering</a>
+                </div>
 
-        <section id="co">
-            <h3>Courses Offered</h3>
-            <ul class="list">
-                <li>B.Tech in Computer Engineering</li>
-                <li>B.Tech in Cyber Security</li>
-                <li>M.Tech in Computer Engineering</li>
-                <li>Ph.D. in Computer Science & Engineering</li>
-            </ul>
-        </section>
+            </div>
+        </div>
+    </section>
 
-        <section id="tr">
-            <h3>Top Recruiters</h3>
-            <ul class="list">
-                <li>TCS</li>
-                <li>Infosys</li>
-                <li>Capgemini</li>
-                <li>Wipro</li>
-                <li>LTIMindtree</li>
-                <li>Cognizant</li>
-                <li>Reliance Industries</li>
-            </ul>
-        </section>
-    </div>
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Image Gallery of Events</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0">
+                        <img src="download.jpeg" class="card-img-top" alt="Event 1" style="width: 250px; height: 150px;"> 
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0">
+                        <img src="download (1).jpeg" class="card-img-top" alt="Event 2" style="width: 250px; height: 150px;">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0">
+                        <img src="download (2).jpeg" class="card-img-top" alt="Event 3" style="width: 250px; height: 150px;">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0">
+                        <img src="images.jpeg"card-img-top" alt="Event 4" style="width: 250px; height: 150px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <footer >
-        <div id="footer">@ 2025 Marwadi University-Rajkot - Department of Computer Engineering</div>
+    <section id="recruiters" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Top Recruiters</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0">
+                        <img src="download (3).jpeg" class="card-img-top" alt="Company 1" style="width: 250px; height: 250px;">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0">
+                        <img src="images.png" class="card-img-top" alt="Company 2" style="width: 250px; height: 250px;">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0">
+                        <img src="download (1).png" class="card-img-top" alt="Company 3" style="width: 250px; height: 250px;">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0">
+                        <img src="comp1.jpeg" class="card-img-top" alt="Company 4" style="width: 285px; height: 250px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2025 Marwadi University. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
